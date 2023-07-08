@@ -29,7 +29,7 @@ document.getElementById('yes').onclick = function() {
   answer = true;
   guessNumber(turn);
   if (turn === (numbers.length - 1) ) {
-    document.getElementById('question').innerHTML = "Your number is..." + sum;
+    document.getElementById('question').innerHTML = "Your number is... " + sum + "!";
   } else {
     showNumbers(++turn);
   }
@@ -39,7 +39,7 @@ document.getElementById('no').onclick = function() {
   answer = false;
   guessNumber(turn);
   if (turn === numbers.length - 1) {
-    document.getElementById('question').innerHTML = "Your number is..." + sum;
+    document.getElementById('question').innerHTML = "Your number is... " + sum + "!";
   } else {
     showNumbers(++turn);
   }
