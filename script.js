@@ -44,4 +44,3 @@ document.getElementById('no').onclick = function() {
     showNumbers(++turn);
   }
 };
-
