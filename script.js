@@ -16,7 +16,7 @@ function guessNumber(turn){
   if (answer == true) {
     guess.push(numbers[turn][0]);
     sum = guess.reduce((a, b) => a + b, 0);
-    document.getElementById('question').innerHTML = "Reading your mind..."
+    document.getElementById('question').innerHTML = "Reading your mind... is the number among these?"
   }
 }
 
