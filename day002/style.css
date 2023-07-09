@@ -1,0 +1,53 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+} */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+main {
+    height: 500px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    transition: 0.6 ease-out;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    border-radius: 15px 15px 0 0;
+    padding: 2rem 0 0 0;
+    height: min-content;
+    width: 100%;
+    /* background-color:lemonchiffon; */
+    display: flex;
+    align-items: center;
+    justify-content: inherit;
+}
+
+.weather {
+    /* background-color: aquamarine; */
+}
+
+.clima {
+    font-size: 14rem;
+}
+
+.temp {
+    font-size: 2rem;
+}
