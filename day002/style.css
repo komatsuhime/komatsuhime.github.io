@@ -16,7 +16,7 @@ body {
 
 main {
     height: 500px;
-    width: 50%;
+    width: 70%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -53,5 +53,5 @@ nav {
 }
 
 #city {
-    
+
 }
