@@ -45,9 +45,13 @@ nav {
 }
 
 .clima {
-    font-size: 14rem;
+    font-size: 8rem;
 }
 
 .temp {
     font-size: 2rem;
+}
+
+#city {
+    
 }
