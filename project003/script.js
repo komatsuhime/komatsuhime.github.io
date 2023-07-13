@@ -1,10 +1,7 @@
 const squares = document.querySelectorAll('.row');
 
 for (let square of squares) {
-    square.addEventListener("click", toggleClass);
-    // square.addEventListener("touchstart", toggleClass);
-
-    function toggleClass() {
+    square.addEventListener("click", () => {
         if (square.classList.contains('erase')) {
             square.classList.remove('erase');
             square.classList.add('draw');
@@ -12,5 +9,5 @@ for (let square of squares) {
             square.classList.remove('draw');
             square.classList.add('erase');
         }
-    }
-}
+    });
+};
