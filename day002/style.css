@@ -33,7 +33,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(97, 97, 97);
+    background-color: #9a8c98;
 }
 
 .weather {
@@ -45,6 +45,7 @@ nav {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 2rem 0 0 0;
+    color: #fff;
 }
 
 .clima {
@@ -61,6 +62,13 @@ nav {
     
 }
 
+.weather div {
+    padding-top: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
 #conditions1 {
     padding-top: 1.2rem;
     font-size: 1.8rem;
@@ -70,7 +78,6 @@ nav {
 
 #conditions2 {
     font-size: 1.2rem;
-    color: rgb(97, 97, 97);
     font-weight: 400;
     
 }
@@ -78,6 +85,7 @@ nav {
 #cityName {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
+    opacity: 0.9;
 }
 
 #searchCity {
@@ -96,4 +104,24 @@ nav {
     body {
         /* background-color: blueviolet; */
     }
+}
+
+.style-clouds {
+    background-color: #cdb4db;
+}
+
+.style-clear {
+    background-color: #a2d2ff;
+}
+
+.style-rain {
+    background-color: #bde0fe;
+}
+
+.style-haze {
+    background-color: #ffc8dd;
+}
+
+.style-snow {
+    background-color: #edede9;
 }
