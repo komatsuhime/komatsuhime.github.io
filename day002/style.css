@@ -1,33 +1,21 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: none;
-    box-sizing: border-box;
-} */
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,400;1,700&display=swap');
-
-
 body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: beige;
-    font-family: 'Railway', sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight: 400;
+    padding: 0;
+    margin: 0;
 }
 
 main {
     height: 500px;
-    width: 70%;
+    width: 100%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border-radius: 15px;
-    transition: 0.6 ease-out;
 }
 
 #cityName {
@@ -36,19 +24,24 @@ main {
 }
 
 nav {
-    border-radius: 15px 15px 0 0;
-    padding: 2rem 0 0 0;
+    padding: 2rem 0;
     height: min-content;
     width: 100%;
     /* background-color:lemonchiffon; */
     display: flex;
     align-items: center;
-    justify-content: inherit;
+    justify-content: center;
+    background-color: rgb(99, 99, 99);
 }
 
-.weather i {
-    font-size: 2rem;
-    padding-right: 10px;
+.weather {
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+    justify-content: center;
+    /* align-content: center; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
 }
 
 .clima {
@@ -59,6 +52,45 @@ nav {
     font-size: 2rem;
 }
 
-#city {
+#conditions1, #conditions2 {
+    padding: 5px 10px;
+    font-family: 'Merriweather', serif;
+    
+}
 
+#conditions1 {
+    padding-top: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#conditions2 {
+    font-size: 1.2rem;
+    color: rgb(97, 97, 97);
+    font-weight: 400;
+    
+}
+
+#cityName {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+
+#searchCity {
+    padding: 0.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    border: none
+}
+
+#search {
+    padding: 0.5rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    border: none;
+}
+
+@media (min-width: 800px) {
+    body {
+        /* background-color: blueviolet; */
+    }
 }
