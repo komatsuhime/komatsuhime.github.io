@@ -4,7 +4,16 @@ body {
 div {
     height: 2rem;
     width: 2rem;
-    border: 1px solid #000;
+}
+
+.row {
+    border-width: 1px 1px 0 1px;
+    border-color: #000;
+    border-style: solid;
+}
+
+.row:last-child {
+    border-width: 1px;
 }
 
 .draw {
