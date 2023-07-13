@@ -106,24 +106,26 @@ nav {
 }
 
 .style-clouds {
-    background-color: #cdb4db;
-    /* background: rgb(205,180,219); */
     background: rgb(205,180,219);
     background: linear-gradient(0deg, rgba(205,180,219,1) 0%, rgba(154,140,152,1) 100%);
 }
 
 .style-clear {
-    background-color: #a2d2ff;
+    background: rgb(162,210,255);
+background: linear-gradient(0deg, rgba(162,210,255,1) 0%, rgba(154,140,152,1) 100%);
 }
 
 .style-rain {
-    background-color: #bde0fe;
+    background: rgb(189,224,254);
+background: linear-gradient(0deg, rgba(189,224,254,1) 0%, rgba(154,140,152,1) 100%);
 }
 
 .style-haze {
-    background-color: #ffc8dd;
+    background: rgb(255,200,221);
+background: linear-gradient(0deg, rgba(255,200,221,1) 0%, rgba(154,140,152,1) 100%);
 }
 
 .style-snow {
-    background-color: #edede9;
+    background: rgb(237,237,233);
+background: linear-gradient(0deg, rgba(237,237,233,1) 0%, rgba(154,140,152,1) 100%);
 }
