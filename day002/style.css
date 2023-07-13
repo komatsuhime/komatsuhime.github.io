@@ -10,11 +10,12 @@ body {
 }
 
 main {
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
+    align-content: start;
     flex-wrap: wrap;
 }
 
@@ -39,9 +40,10 @@ nav {
     gap: 1.5rem;
     width: 100%;
     justify-content: center;
-    /* align-content: center; */
-    /* flex-direction: column; */
+    align-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
+    padding: 2rem 0 0 0;
 }
 
 .clima {
