@@ -99,11 +99,11 @@ nav {
     border: none;
 }
 
-@media (min-width: 800px) {
-    body {
-        /* background-color: blueviolet; */
+/* @media (min-width: 800px) {
+    main {
+        width: 50%;
     }
-}
+} */
 
 .style-clouds {
     background: rgb(205,180,219);

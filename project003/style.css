@@ -1,0 +1,16 @@
+body {
+    display: flex;
+}
+div {
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #000;
+}
+
+.draw {
+    background-color: #000;
+}
+
+.erase {
+    background-color: #fff;
+}

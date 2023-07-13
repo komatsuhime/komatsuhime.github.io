@@ -3,7 +3,7 @@ const cityName = document.getElementById("cityName");
 const conditions1 = document.getElementById("conditions1");
 const conditions2 = document.getElementById("conditions2");
 const temperature = document.getElementById("temperature");
-//getElementsByTagName returns an always array, even if there's only one use of the tag.
+//getElementsByTagName returns a collection, even if there's only one instance of the tag.
 const main = document.getElementsByTagName("main")[0];
 
 search.addEventListener('click', () => {
