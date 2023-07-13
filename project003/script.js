@@ -2,7 +2,7 @@ const squares = document.querySelectorAll('.row');
 
 for (let square of squares) {
     square.addEventListener("click", toggleClass);
-    square.addEventListener("touchstart", toggleClass);
+    // square.addEventListener("touchstart", toggleClass);
 
     function toggleClass() {
         if (square.classList.contains('erase')) {
