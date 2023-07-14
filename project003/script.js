@@ -1,13 +1,15 @@
 const squares = document.querySelectorAll('.row');
 
 for (let square of squares) {
-    square.addEventListener("click", () => {
-        if (square.classList.contains('erase')) {
-            square.classList.remove('erase');
-            square.classList.add('draw');
-        } else if (square.classList.contains('draw'))  {
-            square.classList.remove('draw');
-            square.classList.add('erase');
-        }
-    });
-};
+    square.addEventListener("click", toggleClass);
+}
+
+function toggleClass() {
+    if (this.classList.contains('erase')) {
+        this.classList.remove('erase');
+        this.classList.add('draw');
+    } else if (this.classList.contains('draw'))  {
+        this.classList.remove('draw');
+        this.classList.add('erase');
+    }
+}
