@@ -1,6 +1,6 @@
 const squares = document.querySelectorAll('.row');
 const colorInput = document.querySelector("#color");
-let color = "#fff";
+let color = "#000";
 
 colorInput.addEventListener('input', function(e) {
     color = colorInput.value;
