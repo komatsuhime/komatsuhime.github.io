@@ -46,6 +46,7 @@ nav {
     flex-wrap: wrap;
     padding: 0 0 0 2rem;
     color: #fff;
+    max-width: 1200px;
 }
 
 .clima {

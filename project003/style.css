@@ -1,6 +1,14 @@
 body {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+
+.grid {
+    display: flex;
+    min-height: 270px;
+}
+
 div {
     height: 2rem;
     width: 2rem;
@@ -22,4 +30,8 @@ div {
 
 .erase {
     background-color: #fff;
+}
+
+.controls {
+    margin: 10px 0;
 }
