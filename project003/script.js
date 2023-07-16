@@ -1,7 +1,6 @@
 const squares = document.querySelectorAll('.row');
 const colorInput = document.querySelector("#color");
 const fillBackgroundButton = document.querySelector("#fillBackground");
-const fillButton = document.querySelector("#fill");
 let color = "#000";
 
 colorInput.addEventListener('input', function(e) {
@@ -10,7 +9,6 @@ colorInput.addEventListener('input', function(e) {
 
 fillBackgroundButton.addEventListener('click', fillBackground);
 
-fillButton.addEventListener('click', fillSquare);
 
 for (let square of squares) {
     square.addEventListener("click", toggleClass);
@@ -35,12 +33,8 @@ function fillBackground() {
             square.classList.remove('erase');
             square.classList.add('draw');
             square.style.backgroundColor = `${color}`;
+        }
     }
-}
-}
-
-function fillSquare() {
-
 }
 
 function findAdjacentSquares(square){
