@@ -47,48 +47,4 @@ function findAdjacentSquares(square){
     const previousSquare = square.previousElementSibling;
     const nextSquare = square.nextElementSibling;
     console.log(previousSquare, nextSquare);
-
-    
 }
-
-
-
-/* function findAdjacentSquares(square) {
-    const id = square.id.split("");
-    let columnNum = parseInt(id[1]);
-    let rowNum = parseInt(id[3]);
-    const idAbove = "c" + columnNum + "r" + (rowNum+1);
-    const idBelow = "c" + columnNum + "r" + (rowNum-1);
-    const idLeft = "c" + (columnNum-1) + "r" + rowNum;
-    const idRight = "c" + (columnNum+1) + "r" + rowNum;
-    console.log(idAbove, idBelow, idLeft, idRight);
-    return idAbove, idBelow, idLeft, idRight;
-}
-
-function fillSquare() {
-    
-}
-
-function fillAdjacentSquares(idAbove, idBelow, idLeft, idRight) {
-    const squareAbove = document.getElementById(idAbove);
-    const squareBelow = document.getElementById(idBelow);
-    const squareLeft = document.getElementById(idLeft);
-    const squareRight = document.getElementById(idRight);
-
-    // squareAbove.classList.remove('erase');
-    squareAbove.classList.add('draw');
-    squareAbove.style.backgroundColor = `${color}`;
-
-    // squareBelow.classList.remove('erase');
-    squareBelow.classList.add('draw');
-    squareBelow.style.backgroundColor = `${color}`;
-
-    // squareLeft.classList.remove('erase');
-    squareLeft.classList.add('draw');
-    squareLeft.style.backgroundColor = `${color}`;
-
-    // squareRight.classList.remove('erase');
-    squareRight.classList.add('draw');
-    squareRight.style.backgroundColor = `${color}`;
-} 
-*/
