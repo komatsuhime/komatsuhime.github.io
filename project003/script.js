@@ -36,9 +36,3 @@ function fillBackground() {
         }
     }
 }
-
-function findAdjacentSquares(square){
-    const previousSquare = square.previousElementSibling;
-    const nextSquare = square.nextElementSibling;
-    console.log(previousSquare, nextSquare);
-}
